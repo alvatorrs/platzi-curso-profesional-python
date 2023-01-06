@@ -1,7 +1,9 @@
 def make_division_by(n):
-    """This closure returns a function that returns the
-        division of an x number by n"""
-        
+    """
+    This closure returns a function that returns the
+    division of an x number by n
+    """
+
     def division_by(x):
         return x/n
     return division_by
@@ -20,4 +22,3 @@ def main():
 
 if __name__=='__main__':
     main()
-        

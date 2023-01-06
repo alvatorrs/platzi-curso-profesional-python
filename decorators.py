@@ -13,7 +13,7 @@ def execution_time(func):
 
 @execution_time
 def random_func():
-    for _ in range(1,1000000):    #cuando no deseamos conocer el valor del iretados colocamos un _
+    for _ in range(1,1000000):    #cuando no deseamos conocer el valor del iterados colocamos un _
         pass
 
 
